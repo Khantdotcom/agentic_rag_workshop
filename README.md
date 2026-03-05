@@ -44,6 +44,8 @@ VectorDB → Retrieve         RAG Agent →               LLM-as-Judge
 ```
 agentic_rag_workshop/
 ├── README.md
+├── LICENSE
+├── final_grading.ipynb                # 🏆 ตรวจ Final (3 ด้าน × 3 วัน)
 ├── day1/
 │   ├── day1_data_engineering.ipynb    # 📖 เนื้อหา (87 cells)
 │   ├── day1_homework.ipynb            # 📝 การบ้าน (18 cells)
@@ -182,15 +184,16 @@ agentic_rag_workshop/
 
 #### Form: "ส่งการบ้าน Day X — Agentic RAG Workshop"
 
-| #   | ชื่อ Field       | ประเภท      | Required | หมายเหตุ                               |
-| --- | -------------- | ----------- | :------: | ------------------------------------- |
-| 1   | **ชื่อ-นามสกุล**  | Short text  |    ✅     | Validation: ≥ 4 ตัวอักษร                |
-| 2   | **รหัสนักศึกษา**  | Short text  |    ✅     | Validation: regex `^\d{10}$` (10 หลัก) |
-| 3   | **เบอร์โทรศัพท์** | Short text  |    ✅     | Validation: regex `^0\d{8,9}$`        |
-| 4   | **LINE ID**    | Short text  |    ❌     |                                       |
-| 5   | **Email**      | Short text  |    ✅     | auto-collect จาก Google Account       |
-| 6   | **ไฟล์ .ipynb** | File upload |    ✅     | Allow: `.ipynb` only, Max: 10 MB      |
-| 7   | **ปัญหาที่พบ**    | Paragraph   |    ❌     | ให้นักศึกษาเล่าถ้าติดตรงไหน                 |
+| #   | ชื่อ Field                        | ประเภท      | Required | หมายเหตุ                                 |
+| --- | ------------------------------- | ----------- | :------: | --------------------------------------- |
+| 1   | **ชื่อ-นามสกุล**                   | Short text  |    ✅     | Validation: ≥ 4 ตัวอักษร                  |
+| 2   | **รหัสนักศึกษา**                   | Short text  |    ✅     | Validation: regex `^\d{10}$` (10 หลัก)   |
+| 3   | **เบอร์โทรศัพท์**                  | Short text  |    ✅     | Validation: regex `^0\d{8,9}$`          |
+| 4   | **LINE ID**                     | Short text  |    ❌     |                                         |
+| 5   | **Email**                       | Short text  |    ✅     | auto-collect จาก Google Account         |
+| 6   | **ไฟล์เนื้อหาและแบบฝึกหัด (.ipynb)** | File upload |    ✅     | ไฟล์ workshop ที่ทำแบบฝึกหัดในคาบ, Max: 20 MB |
+| 7   | **ไฟล์การบ้าน (.ipynb)**          | File upload |    ✅     | ไฟล์ homework, Max: 10 MB                |
+| 8   | **ปัญหาที่พบ**                     | Paragraph   |    ❌     | ให้นักศึกษาเล่าถ้าติดตรงไหน                   |
 
 #### ตั้งค่า Google Form
 
@@ -201,14 +204,13 @@ agentic_rag_workshop/
 | File upload destination | สร้าง folder ใน Drive: `Workshop_Submissions/DayX/` |
 | Confirmation message    | `✅ ส่งเรียบร้อย! ผลตรวจจะแจ้งภายใน 1 สัปดาห์`            |
 
-#### วิธีสร้าง
+#### 🔗 Google Form Links
 
-1. เปิด [Google Forms](https://forms.google.com) → สร้าง Form ใหม่
-2. เพิ่ม fields ตามตารางด้านบน
-3. ⚙️ Settings → Collect email → Limit 1 response
-4. คัดลอก link → ส่งให้นักศึกษา
-
-> 💡 **Tip:** สร้าง Form 1 ตัว แล้ว duplicate เป็น Day 2, Day 3 ได้เลย — เปลี่ยนแค่ชื่อ
+| Day   | Link                                                                             |
+| ----- | -------------------------------------------------------------------------------- |
+| Day 1 | [ส่งการบ้าน Day 1: Data Engineering](https://forms.gle/R7EXvPvUfZ286CVh8)          |
+| Day 2 | [ส่งการบ้าน Day 2: Building Agents](https://forms.gle/xTQ5eVNKa4fcQVKb8)           |
+| Day 3 | [ส่งการบ้าน Day 3: Evaluation & Optimization](https://forms.gle/yLVHh4YVVt3miogm8) |
 
 ---
 
@@ -281,6 +283,48 @@ agentic_rag_workshop/
 
 ---
 
+## 🏆 เกณฑ์ให้คะแนนรวม (3 ด้าน)
+
+คะแนนสุดท้ายวัดจาก **3 ด้าน** ด้านละ 10 คะแนน × 3 วัน = **90 คะแนนรวม**
+
+### 🤝 Responsibility (ความรับผิดชอบ) — 10 คะแนน/Day
+
+| เกณฑ์               | คะแนน | วัดจาก                        |
+| ------------------ | :---: | ---------------------------- |
+| ส่งตรงเวลา          |   3   | timestamp ใน Google Form     |
+| กรอกข้อมูลครบถ้วน     |   2   | ชื่อ, รหัส, เบอร์ ครบ            |
+| ส่งครบทุก Day        |   3   | ส่ง Day 1 + 2 + 3             |
+| Run ✅ ตรวจสอบก่อนส่ง |   2   | มี output จาก validation cell |
+
+### 💪 Determination (ความมุ่งมั่น) — 10 คะแนน/Day
+
+| เกณฑ์                  | คะแนน | วัดจาก                        |
+| --------------------- | :---: | ---------------------------- |
+| ทำแบบฝึกหัดครบทุกข้อ       |   3   | code cells มี output          |
+| ลองปรับ parameter เอง  |   3   | เปลี่ยนค่า ≥ 2 แบบ              |
+| อธิบาย/วิเคราะห์ด้วยตัวเอง |   2   | มี comment อธิบายเหตุผล         |
+| แก้ปัญหาที่เจอ            |   2   | มี debugging / error handling |
+
+### 💻 Technical (ทักษะเทคนิค) — 10 คะแนน/Day
+
+| เกณฑ์                   | คะแนน | วัดจาก                         |
+| ---------------------- | :---: | ----------------------------- |
+| Code ทำงานได้            |   3   | ไม่มี error/traceback           |
+| ผลลัพธ์ถูกต้อง             |   3   | ตรงกับข้อมูลเฉพาะตัว (anti-cheat) |
+| คุณภาพ code             |   2   | อ่านง่าย, มี comment             |
+| ไม่ copy / ไม่ใช้ AI ทำแทน |   2   | AI suspected check            |
+
+### 📊 ตารางสรุป
+
+| ด้าน              |  Day 1  |  Day 2  |  Day 3  |   รวม   |
+| ---------------- | :-----: | :-----: | :-----: | :-----: |
+| 🤝 Responsibility |   /10   |   /10   |   /10   |   /30   |
+| 💪 Determination  |   /10   |   /10   |   /10   |   /30   |
+| 💻 Technical      |   /10   |   /10   |   /10   |   /30   |
+| **รวมต่อ Day**    | **/30** | **/30** | **/30** | **/90** |
+
+> ใช้ `final_grading.ipynb` เพื่อรวมคะแนน 3 ด้านจากทุก Day → export เป็น CSV สุดท้าย
+
 ## 🛠️ Tech Stack
 
 | เครื่องมือ                                                                        | ใช้ทำอะไร                   |
@@ -292,6 +336,35 @@ agentic_rag_workshop/
 | [RAGAS](https://ragas.io/)                                                     | RAG Evaluation Framework  |
 | [PyThaiNLP](https://pythainlp.github.io/)                                      | Thai NLP Toolkit          |
 | [Google Colab](https://colab.research.google.com/)                             | Runtime Environment       |
+
+---
+
+## 👤 ผู้จัดทำ
+
+**ปริพล ทู้ไพเราะห์ (Paripol Toopiroh)**
+Chief Executive Officer — [Mega Wiz](https://megawiz.co)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paripol-toopiroh-61273a19b/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/paripol.toopiroh)
+
+### 🛠️ Tools ที่ใช้สร้าง
+
+| Tool         | รายละเอียด                              |
+| ------------ | -------------------------------------- |
+| **IDE**      | [Antigravity](https://antigravity.dev) |
+| **AI Model** | Claude Opus 4.6 (Thinking)             |
+
+---
+
+## 🤝 Contributing
+
+ยินดีรับ feedback และ contribution จากทุกคนครับ!
+
+- 💬 **ข้อเสนอแนะ** → เปิด [Issue](../../issues) ได้เลย
+- 🐛 **พบ Bug** → เปิด [Issue](../../issues) พร้อมระบุขั้นตอนการทำซ้ำ
+- 🔀 **Pull Request** → Fork → แก้ไข → ส่ง PR มาได้เลยครับ
+
+> ทุก contribution จะถูกเผยแพร่ภายใต้ license เดียวกัน (CC BY-NC-SA 4.0)
 
 ---
 
