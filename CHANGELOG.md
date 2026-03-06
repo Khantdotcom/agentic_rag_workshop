@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [1.1.1] - 2026-03-07
+
+### 🐛 Fixed
+
+- GitHub ไม่สามารถ render `day1_data_engineering.ipynb` — `metadata.widgets` ขาด `state` key (#39)
+
+---
+
 ## [1.1.0] - 2026-03-06
 
 ### 🎉 All Notebooks Error-Free on Colab
