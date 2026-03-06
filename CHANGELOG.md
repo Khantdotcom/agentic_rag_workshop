@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [1.1.2] - 2026-03-07
+
+### 🐛 Fixed
+
+- Heatmap ภาษาไทยแสดงเป็น □□□ — ย้าย Thai font setup (Garuda) ไปก่อน heatmap cell (#41)
+
+---
+
 ## [1.1.1] - 2026-03-07
 
 ### 🐛 Fixed
