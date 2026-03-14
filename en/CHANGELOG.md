@@ -12,10 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### 🐛 Fixed
 
 **Day 2: Building Agents**
-- `day2_homework.ipynb` — `chat_with_agent()` ส่ง `session_service` เป็น constructor arg ให้ `InMemoryRunner` ซึ่งไม่รองรับ → ใช้ `runner.session_service` pattern (#46)
+- `day2_homework.ipynb` — `chat_with_agent()` Translated English text `session_service` Translated English text constructor arg Translated English text `InMemoryRunner` Translated English text → Translated English text `runner.session_service` pattern (#46)
 
 **Day 3: Evaluation**
-- `day3_evaluation.ipynb` — RAGAS evaluation cell มีโค้ดหายไป (embedding setup, Dataset, evaluate() call, try block) ทำให้เกิด parse error (#45)
+- `day3_evaluation.ipynb` — RAGAS evaluation cell Translated English text (embedding setup, Dataset, evaluate() call, try block) Translated English text parse error (#45)
 
 ---
 
@@ -23,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### 🐛 Fixed
 
-- Heatmap ภาษาไทยแสดงเป็น □□□ — ย้าย Thai font setup (Garuda) ไปก่อน heatmap cell (#41)
+- Heatmap Thai languageTranslated English text □□□ — Translated English text Thai font setup (Garuda) Translated English text heatmap cell (#41)
 
 ---
 
@@ -31,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### 🐛 Fixed
 
-- GitHub ไม่สามารถ render `day1_data_engineering.ipynb` — `metadata.widgets` ขาด `state` key (#39)
+- GitHub Translated English text render `day1_data_engineering.ipynb` — `metadata.widgets` Translated English text `state` key (#39)
 
 ---
 
@@ -39,36 +39,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### 🎉 All Notebooks Error-Free on Colab
 
-Notebooks ทั้ง 3 วัน + แบบฝึกหัด ผ่านการทดสอบบน Google Colab ไม่มี error
+Notebooks Translated English text 3 Translated English text + Translated English text Google Colab Translated English text error
 
 ### 🐛 Fixed
 
 **Day 1: Data Engineering**
-- Thai font ใน matplotlib แสดงเป็น □□□ — ใช้ `fonts-thai-tlwg` + `addfont()` (#19, #23, #28)
-- Similarity matrix text ไม่ตรง — เปลี่ยนเป็น matplotlib heatmap (#30, #32)
+- Thai font Translated English text matplotlib Translated English text □□□ — Translated English text `fonts-thai-tlwg` + `addfont()` (#19, #23, #28)
+- Similarity matrix text Translated English text — Translated English text matplotlib heatmap (#30, #32)
 
 **Day 2: Building Agents**
-- `InMemoryRunner` ไม่รับ `session_service` param — ใช้ `runner.session_service` (#16)
-- `resp.text.strip()` → NoneType error — เพิ่ม None check (#17)
-- `chat_with_agent` tuple unpacking ValueError — แก้ return value (#16)
-- `%%time` + `await` SyntaxError บน Colab — ลบ `%%time`
+- `InMemoryRunner` Translated English text `session_service` param — Translated English text `runner.session_service` (#16)
+- `resp.text.strip()` → NoneType error — Translated English text None check (#17)
+- `chat_with_agent` tuple unpacking ValueError — Translated English text return value (#16)
+- `%%time` + `await` SyntaxError Translated English text Colab — Translated English text `%%time`
 
 **Day 3: Evaluation**
-- `InMemoryRunner` + `session_service` TypeError — ใช้ `runner.session_service` (#26)
-- `resp.text.strip()` NoneType — เพิ่ม None check (#26)
+- `InMemoryRunner` + `session_service` TypeError — Translated English text `runner.session_service` (#26)
+- `resp.text.strip()` NoneType — Translated English text None check (#26)
 
 ### ✨ Improved
 
-- ASCII diagrams กับ Thai text → เปลี่ยนเป็น markdown table ทุก notebook (#21)
-- Pipeline diagram Day 1 + Day 2 → จัดให้ตรงและสวยงาม
-- Similarity matrix → heatmap visualization 3 ช่อง (#30)
-- เพิ่มข้อมูล KMITL ใน sample data ทุกวัน
+- ASCII diagrams Translated English text Thai text → Translated English text markdown table Translated English text notebook (#21)
+- Pipeline diagram Day 1 + Day 2 → Translated English text
+- Similarity matrix → heatmap visualization 3 Translated English text (#30)
+- Translated English text KMITL Translated English text sample data Translated English text
 
 ### 📝 Documentation
 
-- README: เพิ่ม Known Issues & Fixes section (#33)
-- README: อัพเดทโครงสร้างไฟล์ + Colab note
-- เพิ่ม `.agent/workflows/git-workflow.md` — บังคับ Issue → Branch → PR → Merge
+- README: Translated English text Known Issues & Fixes section (#33)
+- README: Translated English text + Colab note
+- Translated English text `.agent/workflows/git-workflow.md` — Translated English text Issue → Branch → PR → Merge
 
 ---
 
@@ -76,7 +76,7 @@ Notebooks ทั้ง 3 วัน + แบบฝึกหัด ผ่านก
 
 ### 🎉 Initial Release
 
-Workshop สอน Agentic RAG ครบ 3 วัน พร้อมระบบตรวจการบ้านอัตโนมัติ
+Workshop Translated English text Agentic RAG Translated English text 3 Translated English texthomeworkTranslated English text
 
 ### ✨ Added
 
@@ -86,26 +86,26 @@ Workshop สอน Agentic RAG ครบ 3 วัน พร้อมระบบ
 - `day3/day3_evaluation.ipynb` — RAGAS, LLM-as-Judge, A/B Testing, Capstone
 
 **Homework Notebooks**
-- `day1/day1_homework.ipynb` — Pipeline ครบ loop (10 คะแนน)
-- `day2/day2_homework.ipynb` — Agent + RAG Agent + Workflow (10 คะแนน)
-- `day3/day3_homework.ipynb` — RAG + Evaluation + Optimization (10 คะแนน)
+- `day1/day1_homework.ipynb` — Pipeline Translated English text loop (10 points)
+- `day2/day2_homework.ipynb` — Agent + RAG Agent + Workflow (10 points)
+- `day3/day3_homework.ipynb` — RAG + Evaluation + Optimization (10 points)
 - Anti-cheat: student-specific seeded data generation
-- Standardized student info: ชื่อ, รหัส, เบอร์โทร, LINE ID
+- Standardized student info: Translated English text, Translated English text, Translated English text, LINE ID
 
 **Grading System**
-- `day1/day1_grading.ipynb` — AI grading ด้วย Gemini 2.5 Pro
+- `day1/day1_grading.ipynb` — AI grading Translated English text Gemini 2.5 Pro
 - `day2/day2_grading.ipynb` — Duplicate check + CSV/JSON export
 - `day3/day3_grading.ipynb` — Automated scoring + download
-- `final_grading.ipynb` — 3 ด้าน (Responsibility/Determination/Technical) × 3 วัน = /90
+- `final_grading.ipynb` — 3 Translated English text (Responsibility/Determination/Technical) × 3 Translated English text = /90
 
 **Submission System**
-- Google Form × 3 วัน (Workshop notebook + Homework notebook upload)
+- Google Form × 3 Translated English text (Workshop notebook + Homework notebook upload)
 - Google Drive folder structure
 
 **Documentation**
-- `README.md` — ภาพรวม, โครงสร้าง, วิธีสอน, เกณฑ์คะแนน, Tech Stack
+- `README.md` — Translated English text, Translated English text, Translated English text, Translated English textpoints, Tech Stack
 - `LICENSE` — CC BY-NC-SA 4.0 (TH + EN)
-- `slides_outline.md` — Slide outline 50 slides พร้อม Colab + Form links
+- `slides_outline.md` — Slide outline 50 slides Translated English text Colab + Form links
 
 ### 🐛 Fixed
 - numpy binary incompatibility on Colab (#1, #2)

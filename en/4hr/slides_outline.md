@@ -2,69 +2,69 @@
 
 ---
 
-## 🎯 Slide 0: Workshop Overview (ใช้เปิด Day 1 ก่อนเข้าเนื้อหา)
+## 🎯 Slide 0: Workshop Overview (Translated English text Day 1 Translated English textcontent)
 
 ### Slide 0-1 — Title
 - **Agentic RAG Workshop: From Zero to Hero**
-- สร้างระบบ AI ที่ค้นหา คิด และตอบได้ด้วยตัวเอง
-- 3 วัน | Hands-on | Google Colab
+- Translated English text AI Translated English text
+- 3 Translated English text | Hands-on | Google Colab
 
-### Slide 0-2 — Roadmap 3 วัน
+### Slide 0-2 — Roadmap 3 Translated English text
 - **Day 1: 📊 Data Engineering Pipeline**
-  - ทำข้อมูลให้พร้อม: Deduplicate → Chunk → Embed → VectorDB → Search
+  - Translated English text: Deduplicate → Chunk → Embed → VectorDB → Search
   - Tech: Qdrant, multilingual-e5-large, BM25, PyThaiNLP
-  - 🔗 [เปิดใน Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_data_engineering.ipynb)
+  - 🔗 [Translated English text Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_data_engineering.ipynb)
 - **Day 2: 🤖 Building Agents**
-  - สร้าง AI Agent: Agent + Tools → RAG Agent → Multi-Agent
+  - Translated English text AI Agent: Agent + Tools → RAG Agent → Multi-Agent
   - Tech: Google ADK, Gemini API, Session Memory
-  - 🔗 [เปิดใน Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_building_agents.ipynb)
+  - 🔗 [Translated English text Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_building_agents.ipynb)
 - **Day 3: 📏 Evaluation & Optimization**
-  - วัดและปรับปรุง: RAGAS, LLM-as-Judge, A/B Testing, Capstone
+  - Translated English text: RAGAS, LLM-as-Judge, A/B Testing, Capstone
   - Tech: RAGAS Framework, Prompt Engineering
-  - 🔗 [เปิดใน Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_evaluation.ipynb)
+  - 🔗 [Translated English text Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_evaluation.ipynb)
 
-### Slide 0-3 — เกณฑ์การให้คะแนน
-- **3 ด้าน × 3 วัน = 90 คะแนน**
-- 🤝 **Responsibility (10/Day)** — ส่งตรงเวลา, ข้อมูลครบ, Run ✅ ก่อนส่ง
-- 💪 **Determination (10/Day)** — ทำครบ, ลอง parameter, อธิบาย, debug
-- 💻 **Technical (10/Day)** — Code ทำงาน, ผลถูก, ไม่ copy
-- ตาราง:
+### Slide 0-3 — Translated English textpoints
+- **3 Translated English text × 3 Translated English text = 90 points**
+- 🤝 **Responsibility (10/Day)** — Translated English text, Translated English text, Run ✅ Translated English text
+- 💪 **Determination (10/Day)** — Translated English text, Translated English text parameter, Translated English text, debug
+- 💻 **Technical (10/Day)** — Code Translated English text, Translated English text, Translated English text copy
+- Translated English text:
 
-  | ด้าน              |  Day 1  |  Day 2  |  Day 3  |   รวม   |
+  | Translated English text              |  Day 1  |  Day 2  |  Day 3  |   Translated English text   |
   | ---------------- | :-----: | :-----: | :-----: | :-----: |
   | 🤝 Responsibility |   /10   |   /10   |   /10   |   /30   |
   | 💪 Determination  |   /10   |   /10   |   /10   |   /30   |
   | 💻 Technical      |   /10   |   /10   |   /10   |   /30   |
-  | **รวม**          | **/30** | **/30** | **/30** | **/90** |
+  | **Translated English text**          | **/30** | **/30** | **/30** | **/90** |
 
-### Slide 0-4 — เครื่องมือที่ใช้
-- **Google Colab** — เขียน code บน cloud (ไม่ต้องลงอะไรในเครื่อง)
+### Slide 0-4 — Translated English text
+- **Google Colab** — Translated English text code Translated English text cloud (Translated English text)
 - **Gemini API** — LLM (2.5 Flash / 2.5 Pro)
-- **Google ADK** — สร้าง AI Agent
+- **Google ADK** — Translated English text AI Agent
 - **Qdrant** — Vector Database
-- สิ่งที่ต้องเตรียม:
+- Translated English text:
   - Google Account
-  - Gemini API Key (ฟรี) → ใส่ใน Colab Secrets
+  - Gemini API Key (Translated English text) → Translated English text Colab Secrets
 
 ### Slide 0-5 — Ground Rules
-- 🔗 Notebook จะแชร์ผ่าน link (เปิดใน Colab ได้เลย)
-- 📤 ส่งการบ้านผ่าน Google Form (Download .ipynb → Upload)
-- ⏰ Workshop: เรียน → ฝึก → ทำการบ้าน
-- ❓ มีคำถาม → ยกมือถามได้ตลอด!
-- ⚠️ ห้ามแชร์ API Key!
+- 🔗 Notebook Translated English text link (Translated English text Colab Translated English text)
+- 📤 Translated English texthomeworkTranslated English text Google Form (Download .ipynb → Upload)
+- ⏰ Workshop: Translated English text → Translated English text → Translated English texthomework
+- ❓ Translated English text → Translated English text!
+- ⚠️ Translated English text API Key!
 
-### Slide 0-6 — 📤 ส่งการบ้าน
-- **วิธีส่ง:** Download .ipynb จาก Colab → Upload ใน Google Form
-- ส่งทั้งไฟล์เนื้อหา (แบบฝึกหัด) + ไฟล์การบ้าน
+### Slide 0-6 — 📤 Translated English texthomework
+- **Translated English text:** Download .ipynb Translated English text Colab → Upload Translated English text Google Form
+- Translated English textcontent (Translated English text) + Translated English texthomework
 
-| Day   | 🔗 เปิดการบ้านใน Colab                                                                                                                  | 📤 ส่งการบ้าน (Google Form)                              |
+| Day   | 🔗 Translated English texthomeworkTranslated English text Colab                                                                                                                  | 📤 Translated English texthomework (Google Form)                              |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------- |
-| Day 1 | [day1_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_homework.ipynb) | [ส่งการบ้าน Day 1](https://forms.gle/R7EXvPvUfZ286CVh8) |
-| Day 2 | [day2_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_homework.ipynb) | [ส่งการบ้าน Day 2](https://forms.gle/xTQ5eVNKa4fcQVKb8) |
-| Day 3 | [day3_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_homework.ipynb) | [ส่งการบ้าน Day 3](https://forms.gle/yLVHh4YVVt3miogm8) |
+| Day 1 | [day1_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_homework.ipynb) | [Translated English texthomework Day 1](https://forms.gle/R7EXvPvUfZ286CVh8) |
+| Day 2 | [day2_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_homework.ipynb) | [Translated English texthomework Day 2](https://forms.gle/xTQ5eVNKa4fcQVKb8) |
+| Day 3 | [day3_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_homework.ipynb) | [Translated English texthomework Day 3](https://forms.gle/yLVHh4YVVt3miogm8) |
 
-- ⚠️ ส่งได้ 1 ครั้ง (แก้ไขหลังส่งได้)
-- ✅ Run "ตรวจสอบคำตอบ" ก่อนส่งทุกครั้ง!
+- ⚠️ Translated English text 1 Translated English text (Translated English text)
+- ✅ Run "Translated English text" Translated English text!
 
 ---
 
@@ -75,81 +75,81 @@
 - Day 1: Data Engineering Pipeline
 
 ### Slide 2 — Workshop Overview
-- 3 วันเรียนอะไร?
-  - Day 1: Data → VectorDB (วันนี้)
+- 3 Translated English text?
+  - Day 1: Data → VectorDB (Translated English text)
   - Day 2: Agent + Tools
   - Day 3: Evaluation + Capstone
-- ภาพ Pipeline: Raw → Chunk → Embed → Store → Retrieve → Answer
+- Translated English text Pipeline: Raw → Chunk → Embed → Store → Retrieve → Answer
 
-### Slide 3 — RAG คืออะไร?
+### Slide 3 — RAG Translated English text?
 - **R**etrieval-**A**ugmented **G**eneration
-- LLM เก่ง แต่ไม่รู้ข้อมูลเรา → ต้อง "ป้อน" context ให้
-- RAG = ค้นหา + สร้างคำตอบ
-- ภาพเปรียบเทียบ: LLM-only vs RAG
+- LLM Translated English text → Translated English text "Translated English text" context Translated English text
+- RAG = Translated English text + Translated English text
+- Translated English text: LLM-only vs RAG
 
 ### Slide 4 — Setup
-- 🔗 เปิด Notebook: `[เปิดใน Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_data_engineering.ipynb)`
-- ตั้ง API Key ใน Colab Secrets: `GOOGLE_API_KEY`
-- ⚠️ ห้ามแชร์ API Key!
+- 🔗 Translated English text Notebook: `[Translated English text Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_data_engineering.ipynb)`
+- Translated English text API Key Translated English text Colab Secrets: `GOOGLE_API_KEY`
+- ⚠️ Translated English text API Key!
 
 ### Slide 5 — Deduplication
-- ทำไมต้องตรวจไฟล์ซ้ำ?
-- MD5/SHA256 Hash → fingerprint ของไฟล์
-- 💡 สังเกต: Hash เดียวกัน = เนื้อหาเหมือนกัน 100%
+- Translated English text?
+- MD5/SHA256 Hash → fingerprint Translated English text
+- 💡 Observation: Hash Translated English text = contentTranslated English text 100%
 
 ### Slide 6 — Chunking
-- ทำไมต้องตัดข้อความ? (LLM มี context limit)
-- 3 วิธี:
-  - Fixed-size: ง่าย แต่ตัดกลางประโยค
-  - Recursive: ฉลาดกว่า ตัดตามโครงสร้าง
-  - Semantic: ดีสุด ตัดตามเนื้อหา
-- 💡 สังเกต: chunk_size vs overlap tradeoff
+- Translated English text? (LLM Translated English text context limit)
+- 3 Translated English text:
+  - Fixed-size: Translated English text
+  - Recursive: Translated English text
+  - Semantic: Translated English textcontent
+- 💡 Observation: chunk_size vs overlap tradeoff
 
 ### Slide 7 — Thai Tokenization
-- ภาษาไทยไม่มีช่องว่างระหว่างคำ
+- Thai languageTranslated English text
 - PyThaiNLP `word_tokenize()`
-- ตัวอย่าง: "สวัสดีครับ" → ["สวัสดี","ครับ"]
+- Translated English text: "Translated English text" → ["Translated English text","Translated English text"]
 
 ### Slide 8 — Embedding
-- แปลงข้อความ → Vector (ตัวเลข)
-- Model: `multilingual-e5-large` (รองรับไทย)
-- ภาพ: ข้อความใกล้กัน → Vector ใกล้กัน
-- Cosine Similarity: วัดความคล้าย
+- Translated English text → Vector (Translated English text)
+- Model: `multilingual-e5-large` (Translated English text)
+- Translated English text: Translated English text → Vector Translated English text
+- Cosine Similarity: Translated English text
 
 ### Slide 9 — Hybrid Search
-- Dense Search: Embedding (เข้าใจความหมาย)
-- Sparse Search: BM25 (จับคำตรง)
-- Hybrid = Dense + Sparse → ดีที่สุด
-- 💡 สังเกต: Dense เก่ง synonym, Sparse เก่ง keyword
+- Dense Search: Embedding (Translated English text)
+- Sparse Search: BM25 (Translated English text)
+- Hybrid = Dense + Sparse → Translated English text
+- 💡 Observation: Dense Translated English text synonym, Sparse Translated English text keyword
 
 ### Slide 10 — Vector Database (Qdrant)
-- ทำไมไม่ใช้ DB ปกติ? → ค้นหาด้วย "ความหมาย" ไม่ใช่ keyword
-- Qdrant: in-memory, เร็ว, ใช้ง่าย
+- Translated English text DB Translated English text? → Translated English text "Translated English text" Translated English text keyword
+- Qdrant: in-memory, Translated English text, Translated English text
 - Collection → Points (vector + payload)
 
 ### Slide 11 — Indexing & Retrieval
-- Indexing: Chunk → Embed → Store ใน Qdrant
+- Indexing: Chunk → Embed → Store Translated English text Qdrant
 - Retrieval: Query → Embed → Search → Top-K results
-- ภาพ: Full Pipeline Flow
+- Translated English text: Full Pipeline Flow
 
-### Slide 12 — 🧪 แบบฝึกหัด
-- ลองทำใน notebook ด้วยตัวเอง
-- ปรับ chunk_size, top_k ดูผลต่าง
-- 15 นาที
+### Slide 12 — 🧪 Translated English text
+- Translated English text notebook Translated English text
+- Translated English text chunk_size, top_k Translated English text
+- 15 Translated English text
 
-### Slide 13 — สรุป Day 1
-- วันนี้เรียน: Dedup → Chunk → Embed → VectorDB → Search
+### Slide 13 — Translated English text Day 1
+- Translated English text: Dedup → Chunk → Embed → VectorDB → Search
 - 💡 Key Takeaways:
-  - Chunk size มีผลต่อคุณภาพ RAG
-  - Hybrid Search ดีกว่าใช้วิธีเดียว
-  - Embedding model ต้องรองรับภาษาไทย
+  - Chunk size Translated English text RAG
+  - Hybrid Search Translated English text
+  - Embedding model Translated English textThai language
 
-### Slide 14 — การบ้าน Day 1
-- 🔗 เปิดการบ้าน: `[เปิดใน Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_homework.ipynb)`
-- 📤 ส่งการบ้าน: [Google Form Day 1](https://forms.gle/R7EXvPvUfZ286CVh8)
-- สร้าง Pipeline ด้วยตัวเอง (10 คะแนน)
-- Download .ipynb → Upload ใน Form
-- Deadline: [ระบุ]
+### Slide 14 — homework Day 1
+- 🔗 Translated English texthomework: `[Translated English text Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_homework.ipynb)`
+- 📤 Translated English texthomework: [Google Form Day 1](https://forms.gle/R7EXvPvUfZ286CVh8)
+- Translated English text Pipeline Translated English text (10 points)
+- Download .ipynb → Upload Translated English text Form
+- Deadline: [Translated English text]
 
 ---
 
@@ -159,80 +159,80 @@
 - **Agentic RAG Workshop: From Zero to Hero**
 - Day 2: Building Agents with Google ADK
 
-### Slide 2 — ทบทวน Day 1 + Setup
+### Slide 2 — Translated English text Day 1 + Setup
 - Pipeline: Raw → Chunk → Embed → VectorDB → Search
-- วันนี้: เพิ่ม "Agent" ที่คิดเองได้
-- 🔗 เปิด Notebook: `[เปิดใน Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_building_agents.ipynb)`
+- Translated English text: Translated English text "Agent" Translated English text
+- 🔗 Translated English text Notebook: `[Translated English text Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_building_agents.ipynb)`
 
 ### Slide 3 — Agent vs Chatbot
-- Chatbot: ถาม-ตอบ ตาม script
-- Agent: คิด → ตัดสินใจ → ใช้เครื่องมือ → ตอบ
-- ภาพ: Input → Think → Act → Observe → Answer
+- Chatbot: Translated English text-Translated English text script
+- Agent: Translated English text → Translated English text → Translated English text → Translated English text
+- Translated English text: Input → Think → Act → Observe → Answer
 
 ### Slide 4 — Google ADK
 - Agent Development Kit
-- สร้าง Agent ด้วย Python ไม่กี่บรรทัด
+- Translated English text Agent Translated English text Python Translated English text
 - Components: Agent + Instruction + Tools + Model
 
-### Slide 5 — Agent แรก
+### Slide 5 — Agent Translated English text
 - `LlmAgent(name, model, instruction)`
-- Instruction = "บุคลิก" ของ Agent
-- ลองคุยกับ Agent
+- Instruction = "Translated English text" Translated English text Agent
+- Translated English text Agent
 
 ### Slide 6 — Tools (Function Tools)
-- Agent เก่งขึ้นด้วย Tools
-- `FunctionTool`: เขียน Python function → Agent เรียกใช้ได้
-- ตัวอย่าง: คำนวณ, ค้นหา, แปลงหน่วย
-- 💡 สังเกต: docstring สำคัญ! Agent อ่าน docstring เพื่อตัดสินใจ
+- Agent Translated English text Tools
+- `FunctionTool`: Translated English text Python function → Agent Translated English text
+- Translated English text: Translated English text, Translated English text, Translated English text
+- 💡 Observation: docstring Translated English text! Agent Translated English text docstring Translated English text
 
 ### Slide 7 — Gemini API Parameters
-- `temperature`: ความ creative (0=เป๊ะ, 1=สร้างสรรค์)
-- `top_k`, `top_p`: ควบคุมความหลากหลาย
-- `max_output_tokens`: ความยาวคำตอบ
+- `temperature`: Translated English text creative (0=Translated English text, 1=Translated English text)
+- `top_k`, `top_p`: Translated English text
+- `max_output_tokens`: Translated English text
 
 ### Slide 8 — RAG Agent
-- รวม Agent + VectorDB จาก Day 1
-- Tool: `search_knowledge(query)` → ค้นจาก Qdrant
-- Agent ตัดสินใจเอง: ค้นหาหรือตอบเลย
+- Translated English text Agent + VectorDB Translated English text Day 1
+- Tool: `search_knowledge(query)` → Translated English text Qdrant
+- Agent Translated English text: Translated English text
 
 ### Slide 9 — Multi-Agent Systems
-- Agent เดียวไม่พอ? → ใช้หลาย Agent ทำงานร่วมกัน
+- Agent Translated English text? → Translated English text Agent Translated English text
 - 4 patterns:
-  - Sequential: ทำทีละขั้น A → B → C
-  - Parallel: ทำพร้อมกัน A + B + C
-  - Loop: ทำซ้ำจนสำเร็จ
-  - LLM Routing: AI เลือก Agent ให้
+  - Sequential: Translated English text A → B → C
+  - Parallel: Translated English text A + B + C
+  - Loop: Translated English text
+  - LLM Routing: AI Translated English text Agent Translated English text
 
 ### Slide 10 — Sequential vs Parallel
-- Sequential: เหมาะงานต่อเนื่อง (สรุป → แปล → ส่ง)
-- Parallel: เหมาะงานอิสระ (ค้นหา 3 แหล่งพร้อมกัน)
-- ภาพเปรียบเทียบ
+- Sequential: Translated English text (Translated English text → Translated English text → Translated English text)
+- Parallel: Translated English text (Translated English text 3 Translated English text)
+- Translated English text
 
 ### Slide 11 — Session Memory
-- Agent จำบทสนทนาได้
+- Agent Translated English text
 - `InMemorySessionService`
-- ตัวอย่าง: ถามต่อเนื่อง Agent รู้ context
+- Translated English text: Translated English text Agent Translated English text context
 
 ### Slide 12 — Agentic RAG
-- รวมทุกอย่าง: RAG + Multi-Agent + Memory
-- ตัวอย่าง: Study Assistant ที่ค้นหา + สรุป + ตอบคำถาม
-- 💡 สังเกต: ต่างจาก RAG ธรรมดา = Agent ตัดสินใจเอง
+- Translated English text: RAG + Multi-Agent + Memory
+- Translated English text: Study Assistant Translated English text + Translated English text + Translated English text
+- 💡 Observation: Translated English text RAG Translated English text = Agent Translated English text
 
-### Slide 13 — 🧪 แบบฝึกหัด
-- สร้าง Agent + Custom Tool ด้วยตัวเอง
-- 15 นาที
+### Slide 13 — 🧪 Translated English text
+- Translated English text Agent + Custom Tool Translated English text
+- 15 Translated English text
 
-### Slide 14 — สรุป Day 2
-- Agent = AI ที่คิด + ใช้เครื่องมือได้
-- Multi-Agent = หลาย Agent ทำงานด้วยกัน
+### Slide 14 — Translated English text Day 2
+- Agent = AI Translated English text + Translated English text
+- Multi-Agent = Translated English text Agent Translated English text
 - Agentic RAG = Agent + RAG + Memory
 
-### Slide 15 — การบ้าน Day 2
-- 🔗 เปิดการบ้าน: `[เปิดใน Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_homework.ipynb)`
-- 📤 ส่งการบ้าน: [Google Form Day 2](https://forms.gle/xTQ5eVNKa4fcQVKb8)
-- สร้าง 4 ขั้น: Agent+Tool, RAG Agent, Workflow, อธิบาย
-- Download .ipynb → Upload ใน Form
-- 10 คะแนน | Deadline: [ระบุ]
+### Slide 15 — homework Day 2
+- 🔗 Translated English texthomework: `[Translated English text Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_homework.ipynb)`
+- 📤 Translated English texthomework: [Google Form Day 2](https://forms.gle/xTQ5eVNKa4fcQVKb8)
+- Translated English text 4 Translated English text: Agent+Tool, RAG Agent, Workflow, Translated English text
+- Download .ipynb → Upload Translated English text Form
+- 10 points | Deadline: [Translated English text]
 
 ---
 
@@ -242,87 +242,87 @@
 - **Agentic RAG Workshop: From Zero to Hero**
 - Day 3: Evaluation & Optimization
 
-### Slide 2 — ทบทวน Day 1-2 + Setup
+### Slide 2 — Translated English text Day 1-2 + Setup
 - Day 1: Data → VectorDB → Search
 - Day 2: Agent → RAG Agent → Multi-Agent
-- Day 3: "สร้างแล้ว ดีจริงมั้ย?"
-- 🔗 เปิด Notebook: `[เปิดใน Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_evaluation.ipynb)`
+- Day 3: "Translated English text?"
+- 🔗 Translated English text Notebook: `[Translated English text Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_evaluation.ipynb)`
 
-### Slide 3 — ทำไมต้องวัดคุณภาพ?
-- "ดูเหมือนทำงานได้" ≠ "ทำงานได้ดี"
-- ปัญหา: Hallucination, ตอบไม่ตรง, ค้นผิด
-- วัดอย่างเป็นระบบ → ปรับปรุงได้ตรงจุด
+### Slide 3 — Translated English text?
+- "Translated English text" ≠ "Translated English text"
+- Translated English text: Hallucination, Translated English text, Translated English text
+- Translated English text → Translated English text
 
 ### Slide 4 — RAGAS Metrics
-- **Faithfulness**: คำตอบตรงกับ context มั้ย?
-- **Answer Relevancy**: ตอบตรงคำถามมั้ย?
-- **Context Precision**: context ที่ดึงมาตรงมั้ย?
-- **Context Recall**: ดึง context ครบมั้ย?
-- ภาพ: 4 metrics quadrant
+- **Faithfulness**: Translated English text context Translated English text?
+- **Answer Relevancy**: Translated English text?
+- **Context Precision**: context Translated English text?
+- **Context Recall**: Translated English text context Translated English text?
+- Translated English text: 4 metrics quadrant
 
 ### Slide 5 — Auto Eval Dataset
-- สร้างชุดทดสอบอัตโนมัติจาก Gemini
-- Input: เอกสาร → Output: คำถาม + คำตอบ + context
-- ลดเวลาจากหลายวัน → ไม่กี่นาที
+- Translated English text Gemini
+- Input: Translated English text → Output: Translated English text + Translated English text + context
+- Translated English text → Translated English text
 
 ### Slide 6 — LLM-as-Judge
-- ใช้ LLM ตรวจ LLM
-- Prompt: "ให้คะแนน 1-5 ตามเกณฑ์..."
-- ข้อดี: ไม่ต้องเขียน rule เอง
-- ข้อเสีย: มี bias, ต้องออกแบบ prompt ดี
+- Translated English text LLM Translated English text LLM
+- Prompt: "Translated English textpoints 1-5 Translated English text..."
+- Translated English text: Translated English text rule Translated English text
+- Translated English text: Translated English text bias, Translated English text prompt Translated English text
 
 ### Slide 7 — Agent Testing
-- Tool Selection Accuracy: Agent เลือก tool ถูกมั้ย?
-- Response Quality: คำตอบดีมั้ย?
-- Test Cases: ≥ 5 คำถาม → ดู pass rate
+- Tool Selection Accuracy: Agent Translated English text tool Translated English text?
+- Response Quality: Translated English text?
+- Test Cases: ≥ 5 Translated English text → Translated English text pass rate
 
 ### Slide 8 — A/B Testing
-- เปรียบเทียบ 2 configs:
+- Translated English text 2 configs:
   - A: chunk_size=200, top_k=3
   - B: chunk_size=500, top_k=5
-- วัดผล → เลือกตัวที่ดีกว่า
-- 💡 สังเกต: เปลี่ยนทีละตัวแปร ไม่งั้นไม่รู้สาเหตุ
+- Translated English text → Translated English text
+- 💡 Observation: Translated English text
 
 ### Slide 9 — Prompt Engineering
 - Before vs After
-- เทคนิค: Role, Few-shot, Chain-of-Thought, Constraints
-- ตัวอย่าง: prompt ที่ดีขึ้น → คะแนนดีขึ้น
+- Translated English text: Role, Few-shot, Chain-of-Thought, Constraints
+- Translated English text: prompt Translated English text → pointsTranslated English text
 
 ### Slide 10 — Optimization Strategies
-- 5 สิ่งที่ปรับได้:
+- 5 Translated English text:
   1. Chunk size / overlap
   2. Embedding model
   3. Top-K / Search method
   4. Prompt template
   5. Model parameters (temperature)
-- วัดผลทุกครั้งที่เปลี่ยน!
+- Translated English text!
 
-### Slide 11 — 🧪 แบบฝึกหัด
-- ลองปรับ pipeline → วัดผล Before/After
-- 15 นาที
+### Slide 11 — 🧪 Translated English text
+- Translated English text pipeline → Translated English text Before/After
+- 15 Translated English text
 
 ### Slide 12 — ⭐ Capstone Project
-- รวมทุกอย่าง: Data + Agent + Evaluation
-- สร้าง RAG Agent ที่ผ่านการทดสอบ
-- แสดงผล: คะแนน, เหตุผล, Before/After
+- Translated English text: Data + Agent + Evaluation
+- Translated English text RAG Agent Translated English text
+- Translated English text: points, Translated English text, Before/After
 
-### Slide 13 — สรุป 3 วัน
-- Day 1: 📊 Data Engineering → ข้อมูลพร้อม
-- Day 2: 🤖 Agent Building → AI คิดเองได้
-- Day 3: 📏 Evaluation → รู้ว่าดีจริงมั้ย
-- ภาพ: Full Pipeline ตั้งแต่ต้นจนจบ
+### Slide 13 — Translated English text 3 Translated English text
+- Day 1: 📊 Data Engineering → Translated English text
+- Day 2: 🤖 Agent Building → AI Translated English text
+- Day 3: 📏 Evaluation → Translated English text
+- Translated English text: Full Pipeline Translated English text
 
 ### Slide 14 — What's Next?
-- Production: Deploy ด้วย Cloud Run / Vertex AI
+- Production: Deploy Translated English text Cloud Run / Vertex AI
 - Advanced: Fine-tuning, Knowledge Graph, Hybrid Agent
-- Community: เปิด Issue, ส่ง PR ได้เลย!
+- Community: Translated English text Issue, Translated English text PR Translated English text!
 
-### Slide 15 — การบ้าน Day 3 + เกณฑ์ Final
-- 🔗 เปิดการบ้าน: `[เปิดใน Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_homework.ipynb)`
-- 📤 ส่งการบ้าน: [Google Form Day 3](https://forms.gle/yLVHh4YVVt3miogm8)
-- การบ้าน 10 คะแนน | Download .ipynb → Upload ใน Form
-- Deadline: [ระบุ]
-- เกณฑ์รวม 3 ด้าน × 3 วัน = 90 คะแนน:
+### Slide 15 — homework Day 3 + Translated English text Final
+- 🔗 Translated English texthomework: `[Translated English text Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_homework.ipynb)`
+- 📤 Translated English texthomework: [Google Form Day 3](https://forms.gle/yLVHh4YVVt3miogm8)
+- homework 10 points | Download .ipynb → Upload Translated English text Form
+- Deadline: [Translated English text]
+- Translated English text 3 Translated English text × 3 Translated English text = 90 points:
   - 🤝 Responsibility (30)
   - 💪 Determination (30)
   - 💻 Technical (30)

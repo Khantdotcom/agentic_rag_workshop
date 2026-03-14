@@ -1,97 +1,97 @@
 # 📋 Pre-Session Slides: Agentic RAG Workshop
 
-## แนะนำก่อนเริ่มเรียน (15-20 นาที ก่อนวัน workshop)
+## Translated English textbefore class (15-20 Translated English text workshop)
 
 ---
 
-## Slide 1: ปก
+## Slide 1: Translated English text
 - **Agentic RAG: From Zero to Hero**
-- Workshop 4 ชั่วโมง
-- คณะ ICT มหาวิทยาลัยมหิดล
+- Workshop 4 Translated English text
+- Translated English text ICT Translated English text
 
 ---
 
-## Slide 2: สิ่งที่จะได้เรียนรู้
-- ✂️ เตรียมข้อมูลสำหรับ RAG (Chunk → Embed → VectorDB)
-- 🤖 สร้าง AI Agent ด้วย Google ADK
-- ⭐ สร้าง **Agentic RAG** — Agent ที่ค้นหา + คิด + ตอบเอง
-- 📊 วัดคุณภาพด้วย LLM-as-Judge
+## Slide 2: learning outcomes
+- ✂️ Translated English text RAG (Chunk → Embed → VectorDB)
+- 🤖 Translated English text AI Agent Translated English text Google ADK
+- ⭐ Translated English text **Agentic RAG** — Agent Translated English text + Translated English text + Translated English text
+- 📊 Translated English text LLM-as-Judge
 
 ---
 
-## Slide 3: Timeline วัน Workshop
-| Part     |     เวลา     | เนื้อหา                                  |
+## Slide 3: Timeline Translated English text Workshop
+| Part     |     Translated English text     | content                                  |
 | -------- | :----------: | -------------------------------------- |
-| 📢 Part 1 | 1 ชม. 20 นาที | Data Pipeline: Chunk → Embed → Qdrant  |
-| ☕ พัก     |    10 นาที    |                                        |
-| 📢 Part 2 | 1 ชม. 30 นาที | Agent → Tool → RAG Agent → Agentic RAG |
-| 🧪 Part 3 |    1 ชม.     | แบบฝึกหัด (10 คะแนน) + Q&A               |
+| 📢 Part 1 | 1 Translated English text. 20 Translated English text | Data Pipeline: Chunk → Embed → Qdrant  |
+| ☕ Translated English text     |    10 Translated English text    |                                        |
+| 📢 Part 2 | 1 Translated English text. 30 Translated English text | Agent → Tool → RAG Agent → Agentic RAG |
+| 🧪 Part 3 |    1 Translated English text.     | Translated English text (10 points) + Q&A               |
 
 ---
 
-## Slide 4: 🌐 ลงทะเบียน — myhero.megawiz.co.th
+## Slide 4: 🌐 Translated English text — myhero.megawiz.co.th
 
-### ขั้นตอนลงทะเบียน
-1. เข้า **[myhero.megawiz.co.th/student-portal](https://myhero.megawiz.co.th/student-portal/)**
-2. กรอก **อีเมล** เพื่อรับ OTP
-3. ใส่รหัส OTP ที่ได้จากอีเมล → เข้าสู่ระบบ
-4. กรอก **ชื่อ-นามสกุล** และ **รหัสนักศึกษา**
+### Translated English text
+1. Translated English text **[myhero.megawiz.co.th/student-portal](https://myhero.megawiz.co.th/student-portal/)**
+2. Translated English text **Translated English text** Translated English text OTP
+3. Translated English text OTP Translated English text → Translated English text
+4. Translated English text **Translated English text-Translated English text** Translated English text **Translated English textstudents**
 
-### สิ่งที่จะได้จากระบบ
-- 📄 เอกสารประกอบการเรียน (Notebook)
-- 📝 แบบฝึกหัด + ส่งงาน
-- 🏆 **Certificate** หลังจบ workshop
+### Translated English text
+- 📄 Translated English text (Notebook)
+- 📝 Translated English text + Translated English text
+- 🏆 **Certificate** Translated English text workshop
 
-> 🎯 **ลงทะเบียนก่อนมาเรียน** เพื่อให้วัน workshop ไม่ต้องเสียเวลา
-
----
-
-## Slide 5: ⚠️ สิ่งที่ต้องเตรียมก่อนมาเรียน
-
-1. ✅ **ลงทะเบียน** ที่ [myhero.megawiz.co.th/student-portal](https://myhero.megawiz.co.th/student-portal/)
-2. 🔑 **สร้าง Gemini API Key**
-3. 💻 เปิด **Google Colab** ได้
-4. 🧪 ทดสอบ API Key ล่วงหน้า
+> 🎯 **Translated English text** Translated English text workshop Translated English text
 
 ---
 
-## Slide 6: 🔑 วิธีสร้าง Gemini API Key (Step-by-Step)
+## Slide 5: ⚠️ Translated English text
 
-1. เข้า **[aistudio.google.com](https://aistudio.google.com)**
-2. Login ด้วย Google Account
-3. คลิก **"Get API Key"** (มุมบนซ้าย)
-4. คลิก **"Create API Key"**
-5. เลือก Project → **Create API key in new project**
-6. **Copy** API Key เก็บไว้ (ห้ามแชร์!)
-
-> ⚠️ Free tier: **15 RPM** (requests/minute) — เพียงพอสำหรับ workshop
+1. ✅ **Translated English text** Translated English text [myhero.megawiz.co.th/student-portal](https://myhero.megawiz.co.th/student-portal/)
+2. 🔑 **Translated English text Gemini API Key**
+3. 💻 Translated English text **Google Colab** Translated English text
+4. 🧪 Translated English text API Key Translated English text
 
 ---
 
-## Slide 7: 🔒 วิธีเก็บ API Key ใน Colab Secrets
+## Slide 6: 🔑 Translated English text Gemini API Key (Step-by-Step)
 
-1. เปิด Google Colab
-2. คลิก 🔑 **ไอคอนกุญแจ** (แถบซ้าย) → "Secrets"
-3. คลิก **"Add new secret"**
+1. Translated English text **[aistudio.google.com](https://aistudio.google.com)**
+2. Login Translated English text Google Account
+3. Translated English text **"Get API Key"** (Translated English text)
+4. Translated English text **"Create API Key"**
+5. Translated English text Project → **Create API key in new project**
+6. **Copy** API Key Translated English text (Translated English text!)
+
+> ⚠️ Free tier: **15 RPM** (requests/minute) — Translated English text workshop
+
+---
+
+## Slide 7: 🔒 Translated English text API Key Translated English text Colab Secrets
+
+1. Translated English text Google Colab
+2. Translated English text 🔑 **Translated English text** (Translated English text) → "Secrets"
+3. Translated English text **"Add new secret"**
 4. Name: `GOOGLE_API_KEY`
-5. Value: วาง API Key ที่ copy มา
-6. เปิด toggle **"Notebook access"** ✅
+5. Value: Translated English text API Key Translated English text copy Translated English text
+6. Translated English text toggle **"Notebook access"** ✅
 
-> 🎯 ทำแค่ครั้งเดียว — ใช้ได้ทุก notebook
+> 🎯 Translated English text — Translated English text notebook
 
 ---
 
-## Slide 8: 🚨 Error 429 — Rate Limit คืออะไร?
+## Slide 8: 🚨 Error 429 — Rate Limit Translated English text?
 
 ```
 google.api_core.exceptions.ResourceExhausted: 429
 You exceeded your current quota
 ```
 
-**แปลว่า:** ส่ง request เร็ว/เยอะเกินไป
+**Translated English text:** Translated English text request Translated English text/Translated English text
 
 ### Free Tier Limits (Gemini 2.5 Flash):
-| Limit              | ค่า        |
+| Limit              | Translated English text        |
 | ------------------ | --------- |
 | RPM (Requests/min) | 15        |
 | TPM (Tokens/min)   | 1,000,000 |
@@ -99,14 +99,14 @@ You exceeded your current quota
 
 ---
 
-## Slide 9: 💡 วิธีแก้ Error 429
+## Slide 9: 💡 Translated English text Error 429
 
-### แก้ทันที:
-1. **รอ 1-2 นาที** แล้ว run ใหม่
-2. **อย่า run cell ซ้ำเร็วๆ** — รอ output ก่อน
+### Translated English text:
+1. **Translated English text 1-2 Translated English text** Translated English text run Translated English text
+2. **Translated English text run cell Translated English text** — Translated English text output Translated English text
 
-### แก้ถาวร (แนะนำ):
-3. เพิ่ม **retry + sleep** ในโค้ด:
+### Translated English text (Translated English text):
+3. Translated English text **retry + sleep** Translated English text:
 ```python
 import time
 for attempt in range(3):
@@ -115,7 +115,7 @@ for attempt in range(3):
         break
     except Exception as e:
         if '429' in str(e):
-            print(f'⏳ Rate limit, รอ {30*(attempt+1)} วินาที...')
+            print(f'⏳ Rate limit, Translated English text {30*(attempt+1)} Translated English text...')
             time.sleep(30 * (attempt + 1))
         else:
             raise
@@ -123,59 +123,57 @@ for attempt in range(3):
 
 ---
 
-## Slide 10: 🧪 ทดสอบก่อนมาเรียน
-
-เปิด Colab → สร้าง notebook ใหม่ → Run:
+## Slide 10: 🧪 Translated English text Colab → Translated English text notebook Translated English text → Run:
 
 ```python
-# 1. ตั้ง API Key
+# 1. Translated English text API Key
 from google.colab import userdata
 import os
 os.environ['GOOGLE_API_KEY'] = userdata.get('GOOGLE_API_KEY')
 
-# 2. ทดสอบ
+# 2. Translated English text
 from google import genai
 client = genai.Client(api_key=os.environ['GOOGLE_API_KEY'])
 resp = client.models.generate_content(
     model='gemini-2.5-flash',
-    contents='สวัสดี ตอบสั้นๆ 1 ประโยค'
+    contents='Translated English text 1 Translated English text'
 )
-print(f'✅ สำเร็จ: {resp.text}')
+print(f'✅ Translated English text: {resp.text}')
 ```
 
-ถ้าเห็น ✅ = พร้อมเรียน!
+Translated English text ✅ = Translated English text!
 
 ---
 
-## Slide 11: 📋 Checklist ก่อนมาเรียน
+## Slide 11: 📋 Checklist Translated English text
 
-- [ ] ลงทะเบียนที่ [myhero.megawiz.co.th/student-portal](https://myhero.megawiz.co.th/student-portal/) แล้ว
-- [ ] มี Google Account
-- [ ] สร้าง Gemini API Key แล้ว
-- [ ] เก็บ Key ใน Colab Secrets แล้ว
-- [ ] Run ทดสอบผ่าน → เห็น ✅
+- [ ] Translated English text [myhero.megawiz.co.th/student-portal](https://myhero.megawiz.co.th/student-portal/) Translated English text
+- [ ] Translated English text Google Account
+- [ ] Translated English text Gemini API Key Translated English text
+- [ ] Translated English text Key Translated English text Colab Secrets Translated English text
+- [ ] Run Translated English text → Translated English text ✅
 
-> 🎯 **ทำ checklist ครบ → วัน workshop จะราบรื่นมาก!**
+> 🎯 **Translated English text checklist Translated English text → Translated English text workshop Translated English text!**
 
 ---
 
 ## Slide 12: 🏆 Certificate
 
-หลังจบ workshop และส่งแบบฝึกหัดครบ:
-- ระบบตรวจให้คะแนนอัตโนมัติ (AI Grading)
-- รับ **Certificate** ผ่านระบบ [myhero.megawiz.co.th](https://myhero.megawiz.co.th/student-portal/)
-- ดาวน์โหลดได้ทันที (PDF)
+Translated English text workshop Translated English text:
+- Translated English textpointsTranslated English text (AI Grading)
+- Translated English text **Certificate** Translated English text [myhero.megawiz.co.th](https://myhero.megawiz.co.th/student-portal/)
+- Translated English text (PDF)
 
 ---
 
-## Slide 13: ❓ มีปัญหา?
+## Slide 13: ❓ Translated English text?
 
-| ปัญหา              | วิธีแก้                                   |
+| Translated English text              | Translated English text                                   |
 | ----------------- | -------------------------------------- |
-| เข้า myhero ไม่ได้   | ตรวจอีเมล spam / ลองใหม่                 |
-| ไม่ได้รับ OTP        | เช็ค spam folder / รอ 1 นาที             |
-| API key not valid | สร้าง key ใหม่ที่ aistudio.google.com      |
-| Error 429         | รอ 1-2 นาที แล้วลองใหม่                   |
-| Colab ช้า          | Runtime → Change runtime type → T4 GPU |
+| Translated English text myhero Translated English text   | Translated English text spam / Translated English text                 |
+| Translated English text OTP        | Translated English text spam folder / Translated English text 1 Translated English text             |
+| API key not valid | Translated English text key Translated English text aistudio.google.com      |
+| Error 429         | Translated English text 1-2 Translated English text                   |
+| Colab Translated English text          | Runtime → Change runtime type → T4 GPU |
 
-- ถามอาจารย์ / TA ได้เลย
+- Translated English text / TA Translated English text
